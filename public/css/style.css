@@ -10,7 +10,7 @@ body, html {
 }
 
 img {
-    max-width: 100px;;
+    max-width: 100%;
 }
 
 /* ------------------------------------- GID GERAL ------------------------------------- */
@@ -24,10 +24,64 @@ img {
     ;
 }
 
+/* #### HEADER ####*/
 .header {
     grid-area: header;
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center; 
 }
 
+.logo {
+    max-width: 200px;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.25em;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px; 
+}
+
+.header nav a:hover {
+    transition: all 1s ease;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.header li + li {
+    margin-left: 30px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #### SIDENAV #### */
 .sidenav {
     grid-area: sidenav;
 }
