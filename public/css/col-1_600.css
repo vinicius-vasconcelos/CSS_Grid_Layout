@@ -1,0 +1,4 @@
+@media (max-width: 600px) {
+    /* ------------------------------------- CONTENT ------------------------------------- */
+    .content {grid-template-columns: auto;}
+}
